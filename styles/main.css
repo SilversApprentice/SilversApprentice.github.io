@@ -1,0 +1,30 @@
+body {
+    background-color: #e6e6e6;
+    font-family: arial;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1, footer {
+    text-align: center;
+}
+#navbar table {
+    width: 100%;
+}
+#navbar td {
+    background-color: white;
+    width: 50%;
+    height: 30px;
+}
+#navbar .current {
+    background-color: black;
+    color: white;
+}
+#navbar td:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
